@@ -1,5 +1,5 @@
 {
-    "name": "franzl/studio",
+    "name": "symvaro/studio",
     "description": "Develop your Composer libraries with style",
     "keywords": ["composer", "development", "workflow"],
     "type": "composer-plugin",
@@ -21,7 +21,8 @@
         "phpspec/phpspec": "^6.3 || ^7.0"
     },
     "replace": {
-        "franzliedke/studio": "self.version"
+        "franzliedke/studio": "self.version",
+        "franzl/studio": "self.version"
     },
     "extra": {
         "branch-alias": {
